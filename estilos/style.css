@@ -86,11 +86,17 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-}
+} 
+
 
 div.campo > input:focus-within {
     background-color: white;
 }
+
+div.campo input::placeholder {
+    color: white;
+}
+
 
 form > input[type=submit] {
     display: block;
